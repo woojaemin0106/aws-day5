@@ -2,7 +2,7 @@ name: Deploy To Dev S3
 on:
   push:
     branches:
-      - develop
+      - dev
 jobs:
   deploy:
     runs-on: ubuntu-latest
